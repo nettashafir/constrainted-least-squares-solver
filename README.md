@@ -1,5 +1,6 @@
 # constrainted-least-squares-solver
 A solver for the problem of least squares with the constraint that the solution should be in the unit simplex.
+
 Given matrix H and vector y, try to solve the problem:
 
 ```
@@ -9,6 +10,7 @@ Given matrix H and vector y, try to solve the problem:
   s.t. x>=0 
        sum(x)=1
 ```
+For detailed information about the algorithm, please check the file "Project Summary" in this repo.
 
 # Usage
 Import the file "solver.py" into your python file.<br>
